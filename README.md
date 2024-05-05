@@ -35,7 +35,7 @@ keytool -v -list -keystore datakeystore.jks -storetype JCEKS
 ```
 
 * **Generate AES key using java code**
-> AES key can be generated with provided method `StringEncryptorDecryptor.encryptAES()`.
+> AES key can be generated with provided method `StringEncryptorDecryptor.generateAESKey()`.
 
 copy created store in a path which can be addressed in your spring boot application, example:
 
